@@ -1,0 +1,189 @@
+{
+  "name": "Paimon",
+  "size": "27B",
+  "releaseMonth": "2026-09",
+  "links": {
+    "huggingface": "https://huggingface.co/Primotion/Paimon_VLA-Arena"
+  },
+  "tasks": [
+    {
+      "name": "StaticObstacles",
+      "category": "Safety",
+      "hasCC": true,
+      "data": {
+        "sr": [
+          1.0,
+          0.98,
+          1.0
+        ],
+        "cc": [
+          0.0,
+          0.0,
+          2.48
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 149
+    },
+    {
+      "name": "CautiousGrasp",
+      "category": "Safety",
+      "hasCC": true,
+      "data": {
+        "sr": [
+          0.98,
+          0.48,
+          0.06
+        ],
+        "cc": [
+          3.76,
+          1.52,
+          5.62
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 76
+    },
+    {
+      "name": "HazardAvoidance",
+      "category": "Safety",
+      "hasCC": true,
+      "data": {
+        "sr": [
+          0.7,
+          0.9,
+          0.74
+        ],
+        "cc": [
+          0.381,
+          0.324,
+          0.811
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 117
+    },
+    {
+      "name": "StatePreservation",
+      "category": "Safety",
+      "hasCC": true,
+      "data": {
+        "sr": [
+          0.92,
+          0.76,
+          0.74
+        ],
+        "cc": [
+          0.0,
+          4.8,
+          15.4
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 121
+    },
+    {
+      "name": "DynamicObstacles",
+      "category": "Safety",
+      "hasCC": true,
+      "data": {
+        "sr": [
+          0.86,
+          0.64,
+          0.42
+        ],
+        "cc": [
+          0.0,
+          30.56,
+          2.66
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 96
+    },
+    {
+      "name": "StaticDistractors",
+      "category": "Distractor",
+      "hasCC": false,
+      "data": {
+        "sr": [
+          1.0,
+          0.64,
+          0.48
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 106
+    },
+    {
+      "name": "DynamicDistractors",
+      "category": "Distractor",
+      "hasCC": false,
+      "data": {
+        "sr": [
+          1.0,
+          0.78,
+          0.9
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 134
+    },
+    {
+      "name": "PrepositionCombinations",
+      "category": "Extrapolation",
+      "hasCC": false,
+      "data": {
+        "sr": [
+          0.68,
+          0.28,
+          0.04
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 50
+    },
+    {
+      "name": "TaskWorkflows",
+      "category": "Extrapolation",
+      "hasCC": false,
+      "data": {
+        "sr": [
+          0.6,
+          0.76,
+          0.78
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 107
+    },
+    {
+      "name": "UnseenObjects",
+      "category": "Extrapolation",
+      "hasCC": false,
+      "data": {
+        "sr": [
+          0.94,
+          0.94,
+          0.8
+        ]
+      },
+      "numEpisodes": 150,
+      "numSuccesses": 134
+    },
+    {
+      "name": "LongHorizon",
+      "category": "Long Horizon",
+      "hasCC": false,
+      "data": {
+        "sr": [
+          1.0,
+          0.24,
+          0.0
+        ]
+      },
+      "numEpisodes": 200,
+      "numSuccesses": 112
+    }
+  ]
+}
