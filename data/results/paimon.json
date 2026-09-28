@@ -13,7 +13,7 @@
       "data": {
         "sr": [
           1.0,
-          0.98,
+          1.0,
           1.0
         ],
         "cc": [
@@ -23,7 +23,7 @@
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 149
+      "numSuccesses": 150
     },
     {
       "name": "CautiousGrasp",
@@ -31,8 +31,8 @@
       "hasCC": true,
       "data": {
         "sr": [
-          0.98,
-          0.48,
+          1.0,
+          0.52,
           0.06
         ],
         "cc": [
@@ -42,7 +42,7 @@
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 76
+      "numSuccesses": 79
     },
     {
       "name": "HazardAvoidance",
@@ -50,9 +50,9 @@
       "hasCC": true,
       "data": {
         "sr": [
-          0.7,
-          0.9,
-          0.74
+          0.74,
+          0.96,
+          0.8
         ],
         "cc": [
           0.381,
@@ -61,7 +61,7 @@
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 117
+      "numSuccesses": 125
     },
     {
       "name": "StatePreservation",
@@ -69,9 +69,9 @@
       "hasCC": true,
       "data": {
         "sr": [
-          0.92,
-          0.76,
-          0.74
+          0.98,
+          0.82,
+          0.8
         ],
         "cc": [
           0.0,
@@ -80,7 +80,7 @@
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 121
+      "numSuccesses": 130
     },
     {
       "name": "DynamicObstacles",
@@ -88,9 +88,9 @@
       "hasCC": true,
       "data": {
         "sr": [
-          0.86,
-          0.64,
-          0.42
+          0.92,
+          0.68,
+          0.44
         ],
         "cc": [
           0.0,
@@ -99,7 +99,7 @@
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 96
+      "numSuccesses": 102
     },
     {
       "name": "StaticDistractors",
@@ -108,12 +108,12 @@
       "data": {
         "sr": [
           1.0,
-          0.64,
-          0.48
+          0.68,
+          0.52
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 106
+      "numSuccesses": 110
     },
     {
       "name": "DynamicDistractors",
@@ -122,12 +122,12 @@
       "data": {
         "sr": [
           1.0,
-          0.78,
-          0.9
+          0.84,
+          0.96
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 134
+      "numSuccesses": 140
     },
     {
       "name": "PrepositionCombinations",
@@ -135,13 +135,13 @@
       "hasCC": false,
       "data": {
         "sr": [
-          0.68,
-          0.28,
+          0.72,
+          0.3,
           0.04
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 50
+      "numSuccesses": 53
     },
     {
       "name": "TaskWorkflows",
@@ -149,13 +149,13 @@
       "hasCC": false,
       "data": {
         "sr": [
-          0.6,
-          0.76,
-          0.78
+          0.64,
+          0.82,
+          0.84
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 107
+      "numSuccesses": 115
     },
     {
       "name": "UnseenObjects",
@@ -163,13 +163,13 @@
       "hasCC": false,
       "data": {
         "sr": [
-          0.94,
-          0.94,
-          0.8
+          1.0,
+          1.0,
+          0.86
         ]
       },
       "numEpisodes": 150,
-      "numSuccesses": 134
+      "numSuccesses": 143
     },
     {
       "name": "LongHorizon",
@@ -178,12 +178,12 @@
       "data": {
         "sr": [
           1.0,
-          0.24,
+          0.26,
           0.0
         ]
       },
       "numEpisodes": 200,
-      "numSuccesses": 112
+      "numSuccesses": 113
     }
   ]
 }
